@@ -14,6 +14,79 @@
       crossorigin="anonymous"
     />
 
+ <script>
+     const Cards=[
+    {
+        heading:"Б/у запчасти для грузовых авто из Европы",
+        detail:"Б/у запчасти для грузовых авто из Европы",
+        picture:"images/1st.png"
+
+    },
+    {
+        heading:"Б/у запчасти для грузовых авто из Европы",
+        detail:"Б/у запчасти для грузовых авто из Европы",
+        picture:"images/1st.png"
+    },
+    {
+        heading:"Б/у запчасти для грузовых авто из Европы",
+        detail:"Б/у запчасти для грузовых авто из Европы",
+        picture:"images/1st.png"
+    },
+    {
+        heading:"Б/у запчасти для грузовых авто из Европы",
+        detail:"Б/у запчасти для грузовых авто из Европы",
+        picture:"images/1st.png"
+    }
+]
+
+var renderCards=document.querySelector(".carddd");
+let html;
+Cards.map((card)=>{
+   return html ` <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class=${card.picture} src="" alt="">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            ${card.detail}
+                        </p>
+  
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        <a href="#" class="btn btn-outline-secondary btn-sm">
+                            <i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class=${card.picture} src="" alt="">
+  
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            ${card.detail}
+                        </p>
+                          
+                        <a href="#" class="btn btn-outline-primary btn-sm">
+                            Card link
+                        </a>
+                        <a href="#" class="btn btn-outline-secondary btn-sm">
+                            <i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> `
+})
+
+
+ </script>
+
     <title>Truck service</title>
     <style>
       .logo {
@@ -76,6 +149,16 @@ margin: 16px 0px;
     color: white;
 
 }
+.servicebtn{
+    font-family: Inter;
+font-style: normal;
+/* font-weight: bold; */
+font-size: 60px;
+line-height: 76px;
+}
+.servicebtn p{
+    
+}
 .trucks{
     /* z; */
 }
@@ -118,8 +201,8 @@ margin: 16px 0px;
 
     <!-- HERO -->
     <div class="container">
-        <div class="row-col-2 d-flex justify-content-center align-center">
-            <div class="col-md-6">
+        <div class="row-col-2 d-md-flex justify-content-center align-center">
+            <div class="col-md-6 ">
                 <h1 class="heroText">
                      Affordable
                       truck service 
@@ -142,7 +225,20 @@ margin: 16px 0px;
     </div>
 
 
+    <div class="container d-flex flex-column justify-content-center text-center ">
+        <h4 class="  servicebtn ">
+            Любые услуги
+        </h4>
+        <p class="p-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas facere eius sapiente voluptate distinct Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, architecto!</p>
+    </div>
 
+    <div class="carddd">
+        
+    </div>
+
+
+
+    
 
 
 
