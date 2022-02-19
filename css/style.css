@@ -29,3 +29,18 @@ li{
 .navli li{
         
 }
+.box {
+    border-radius: 15px;
+}
+
+
+.submit{
+    background-color: #4762FF;
+}
+
+input{
+    border-radius: 5px;
+}
+.cform{
+    border-radius: 20px;
+}
