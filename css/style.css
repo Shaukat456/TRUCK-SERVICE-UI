@@ -44,3 +44,9 @@ input{
 .cform{
     border-radius: 20px;
 }
+footer{
+    padding-top: 2%;
+border-top: 0.7px solid #474747;
+/* width: 80%; */
+/* margin-bottom: ; */
+}
