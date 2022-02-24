@@ -96,5 +96,10 @@ overflow: hidden;
     border-right: 1px solid rgb(235, 232, 232);
 }
 .bb{
-    border-right: .1px solid rgb(235, 232, 232);
+    
+    border-right: 1px solid rgb(170, 163, 163);
+    /* height: 24px; */
+}
+.ble{
+    mix-blend-mode: exclusion;
 }
