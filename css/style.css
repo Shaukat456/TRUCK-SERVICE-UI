@@ -13,6 +13,7 @@ ul li{
 }
 .mapsection{
     background: #F4F4F4;
+    /* width: 100vw; */
 
 }
 .secta{
@@ -30,7 +31,7 @@ li{
         
 }
 .box {
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 
@@ -43,7 +44,11 @@ input{
     background-color: #4762FF14;
 }
 .cform{
-    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+ /* background: url('./images/TRUCKDRIVER.png') no-repeat center/cover; */
+    /* border-radius: 20px; */
     /* background: url("./images/TRUCKDRIVER.png"); */
 }
 footer{
@@ -72,34 +77,8 @@ overflow: hidden;
     /* font-family: 'Alfa Slab One', cursive; */
     /* font-family: 'Titan One', cursive; */
 }
-.bg-img{
-    
-       
-        background-image: url("./images/TRUCKDRIVER.png");
-      
-       
-        min-height: 380px;
-      
-        
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      
-}
+  
+
 .timg{
     width: 100vw;
-}
-
-
-.bR{
-    border-right: 1px solid rgb(235, 232, 232);
-}
-.bb{
-    
-    border-right: 1px solid rgb(170, 163, 163);
-    /* height: 24px; */
-}
-.ble{
-    mix-blend-mode: exclusion;
 }
