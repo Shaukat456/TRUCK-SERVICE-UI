@@ -47,10 +47,20 @@ input{
     display: flex;
     justify-content: center;
     height: 100%;
+    border-radius: 5px;
+
+    /* font-family: 'Alfa Slab One', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Titan One', cursive; */
+
+
  /* background: url('./images/TRUCKDRIVER.png') no-repeat center/cover; */
     /* border-radius: 20px; */
     /* background: url("./images/TRUCKDRIVER.png"); */
 }
+
+
+
 footer{
     /* padding-top: ; */
 border-top: 0.7px solid #474747;
@@ -81,4 +91,42 @@ overflow: hidden;
 
 .timg{
     width: 100vw;
+}
+
+
+.f{
+    border-radius: 20px;
+}
+
+.hd{
+    font-family: 'Roboto', sans-serif;
+}
+
+.st{
+    
+    /* font-family: 'Alfa Slab One', cursive;
+font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Titan One', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.ff{
+    /* font-family: ; */
+     /* font-family: 'Alfa Slab One', cursive;
+     /* font-family: 'Titan One', cursive; */
+     /* font-family: 'Roboto', sans-serif; */
+     font-family: 'Montserrat', sans-serif; 
+}
+
+.cform::before{
+    content: '';
+   background: url('/images/TRUCKDRIVER.png') ;
+    /* background-size */
+background-size: contain;
+   background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* object-fit: fill; */
 }
